@@ -58,9 +58,9 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', ''))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'shortxlinks.com'))
+STREAM_API = (environ.get('STREAM_API', '95c90443f0324be097970c3f704e16eca7116c81'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/akhowtoopenlinks/32'))
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
@@ -69,7 +69,7 @@ VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002453651327')) #Log channel i
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/akhowtoopenlinks/32') # How to open tutorial link for verification
 
 # Shortner 
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '95c90443f0324be097970c3f704e16eca7116c81')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/akhowtoopenlinks/32') # Tutorial video link for opening shortlink website 
