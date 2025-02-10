@@ -46,5 +46,5 @@ __help__ = f"""
 Command: /wall, /wallpaper
 with Query. will send you maximum 8 images as media group.
 
-by @Codeflix_Bots
+by @Akmoviebotz
 """
